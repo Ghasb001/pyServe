@@ -38,7 +38,7 @@ def insertions():
 
     conn.commit()
     cur.close()
-    return jsonify({"message":"OK"}), 200
+    return jsonify({"message":"OK!"}), 200
 
 
 
